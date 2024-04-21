@@ -2,8 +2,8 @@ import { useState } from 'react';
 import { Button } from './components/ui/button';
 import { AlertDialogDemo } from './components/shadcnComponents/AlertDialog';
 import { Separator } from './components/ui/separator';
-import { TableDemo } from './components/shadcnComponents/TableExample';
 import MDXContentExample from './input.mdx';
+import voblogComponent from './v0blog';
 
 function App() {
   const [count, setCount] = useState(0);
@@ -18,6 +18,7 @@ function App() {
         <p className="text-sm font-medium leading-none">
           This is a simple Vite React Typescript starterpack
         </p>
+        <h2>testing skdjfklsdfj</h2>
         <Separator className="my-4" />
         <MDXContentExample />
         <Separator className="my-4" />
@@ -28,7 +29,7 @@ function App() {
           <AlertDialogDemo />
         </div>
         <Separator className="my-4" />
-        <TableDemo />
+        <voblogComponent />
       </div>
     </>
   );
