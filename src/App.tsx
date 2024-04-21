@@ -3,7 +3,6 @@ import { Button } from './components/ui/button';
 import { AlertDialogDemo } from './components/shadcnComponents/AlertDialog';
 import { Separator } from './components/ui/separator';
 import MDXContentExample from './input.mdx';
-import voblogComponent from './v0blog';
 
 function App() {
   const [count, setCount] = useState(0);
@@ -29,7 +28,6 @@ function App() {
           <AlertDialogDemo />
         </div>
         <Separator className="my-4" />
-        <voblogComponent />
       </div>
     </>
   );

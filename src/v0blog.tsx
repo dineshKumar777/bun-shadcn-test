@@ -70,7 +70,7 @@ const voblogComponent: React.FC = () => {
             </div>
           </article>
         </div>
-      </>
+      </div>
     </div>
   );
 };
