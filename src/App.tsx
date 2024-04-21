@@ -28,6 +28,11 @@ function App() {
           <AlertDialogDemo />
         </div>
         <Separator className="my-4" />
+        <div>
+          <Button variant="link">
+            <a href="\about">AboutPage</a>
+          </Button>
+        </div>
       </div>
     </>
   );
