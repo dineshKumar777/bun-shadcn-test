@@ -32,6 +32,12 @@ function App() {
           <Button variant="link">
             <a href="\about">AboutPage</a>
           </Button>
+          <Button variant="link">
+            <a href="\lottie">LottiePage</a>
+          </Button>
+          <Button variant="link">
+            <a href="\rive">RivePage</a>
+          </Button>
         </div>
       </div>
     </>

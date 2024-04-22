@@ -5,6 +5,8 @@ import './index.css';
 import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 import ErrorPage from './ErrorPage.tsx';
 import AboutPage from './AboutPage.tsx';
+import RivePage from './RivePage.tsx';
+import LottiePage from './LottiePage.tsx';
 
 const router = createBrowserRouter([
   {
@@ -15,6 +17,16 @@ const router = createBrowserRouter([
   {
     path: '/about',
     element: <AboutPage />,
+    errorElement: <ErrorPage />,
+  },
+  {
+    path: '/rive',
+    element: <RivePage />,
+    errorElement: <ErrorPage />,
+  },
+  {
+    path: '/lottie',
+    element: <LottiePage />,
     errorElement: <ErrorPage />,
   },
 ]);
